@@ -1,0 +1,83 @@
+body{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+}
+
+.container{
+    background-color: white;
+    width: 300px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.sidebar__profile{
+    width: 60px;
+    height: 60px;
+}
+
+.circular--square {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.flex-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    color: #373B44;
+    font-size: 2em;
+}
+
+li{
+    width: 100%;
+    height: 4em;
+    list-style: none;
+    font-size:1em;
+    border-radius: 8px;
+    background-color: white;
+    color: #4286f4;
+}
+
+.flex-item-1{
+    display: flex;
+    align-items: center;
+}
+
+li :hover{
+    background-color: #4286f481;
+    height: 100%;
+    color: white;
+}
+
+
+
+
+ul{
+    padding-inline-start: 0px;
+    text-indent: 10px;
+}
+
+
+
+
